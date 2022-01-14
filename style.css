@@ -32,12 +32,12 @@ nav a{
  ----------------*/
 
  /*---------------
- main section
+ section-1
  ----------------*/
  .section-1{
      display: flex;
      justify-content: space-between;
-     margin: 0px 120px 20px 120px;
+     margin: 0px 120px 80px 120px;
  }
  .section-1-title h1{
     line-height: 70px;
@@ -59,3 +59,28 @@ nav a{
     width: 440px;
     height: 414px;
  }
+  /*---------------
+ section-1
+ ----------------*/
+
+   /*---------------
+ section-2
+ ----------------*/
+ hr{
+     width: 1290px;
+     color: #AAA;
+     border-radius: 50%;
+ }
+ .logos{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 10px 0px;
+ }
+ .logos img{
+    width: 100px;
+    height: 60px;
+ }
+   /*---------------
+ section-2
+ ----------------*/
