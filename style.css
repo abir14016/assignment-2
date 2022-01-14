@@ -34,4 +34,28 @@ nav a{
  /*---------------
  main section
  ----------------*/
- 
+ .section-1{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 120px 20px 120px;
+ }
+ .section-1-title h1{
+    line-height: 70px;
+    font-size: 60px;
+ }
+ .section-1-paragraph{
+     margin-bottom: 5%;
+ }
+ .section-1-button{
+     background-color: #E02C6D;
+     padding: 15px 30px;
+     border-radius: 41px;
+ }
+ .section-1-button a{
+     text-decoration: none;
+     color: #fff;
+ }
+ .section-1-right img{
+    width: 440px;
+    height: 414px;
+ }
