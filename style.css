@@ -52,6 +52,7 @@ nav a{
  }
  .section-1-button{
      background-color: #E02C6D;
+     width: 130px;
      padding: 15px 30px;
      border-radius: 41px;
  }
@@ -223,3 +224,93 @@ nav a{
  /*---------------
  footer
  ----------------*/
+
+
+ /* for small device(molile acreen) */
+ @media only screen and (max-width: 688px){
+    nav{
+        display: none;
+    }
+
+    .equipment-box, .section-5-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-gap: 45px; */   
+    }
+    .section-1{
+        display: block;
+        /* position: relative; */
+    }
+    .section-1-title h1, .section-1-paragraph p{
+        text-align: center;
+    }
+    .section-1-title h1{
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .section-1-paragraph p{
+        font-size: 18px;
+    }
+    .section-1-button{
+        text-align: center;
+    }
+    .section-1-right{
+        text-align: center;
+        position: absolute;
+        /* top: 0; */
+    }
+    .section-1-right img{
+        width: 202px;
+        height: 190px;
+    }
+    .section-2{
+        visibility: hidden;
+    }
+    .small-device{
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-device a{
+        text-decoration: none;
+        color: black;
+    }
+ } 
+  /* for small device(molile acreen) */   
+
+
+   /* for medium device(tablate acreen) */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .small-device{
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-device a{
+        text-decoration: none;
+        color: black;
+    }
+    nav{
+        display: none;
+    }
+    .section-1-button{
+        text-align: center;
+    }
+    
+    .equipment-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .photography p{
+        display: none;
+    }
+}
+    /* for medium device(tablate acreen) */
+
+
+/* for larger device(desktop acreen) */
+@media only screen and (min-width: 993px){
+    .small-device{
+        display: none;
+    }
+}
+/* for larger device(desktop acreen) */
+
