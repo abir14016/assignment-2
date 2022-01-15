@@ -91,7 +91,7 @@ nav a{
 
 
     /*---------------
- section-2
+ section-3
  ----------------*/
  .section-3{
      display: flex;
@@ -118,5 +118,44 @@ nav a{
     box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
 }
     /*---------------
- section-2
+ section-3
+ ----------------*/
+
+     /*---------------
+ section-4
+ ----------------*/
+ .section-4{
+     position: relative;
+     margin-top: 5%;
+ }
+ .section-4-button{
+     position: absolute;
+     right: 200px;
+ }
+ .section-4 a{
+     text-decoration: none;
+     color: #E02C6D;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 24px;
+ }
+     /*---------------
+ section-4
+ ----------------*/
+
+   /*---------------
+ section-5
+ /* ----------------*/
+
+ .section-5{
+     margin: 0px 120px;
+     background-color: #fff;
+ }
+ 
+ .section-5-container{
+     display: flex;
+     justify-content: space-between;
+ }
+   /*---------------
+ section-5
  ----------------*/
