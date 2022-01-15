@@ -125,12 +125,12 @@ nav a{
  section-4
  ----------------*/
  .section-4{
-     position: relative;
-     margin-top: 5%;
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 200px 100px 200px;
  }
- .section-4-button{
-     position: absolute;
-     right: 200px;
+ .button-1{
+     visibility: hidden;
  }
  .section-4 a{
      text-decoration: none;
@@ -148,14 +148,31 @@ nav a{
  /* ----------------*/
 
  .section-5{
-     margin: 0px 120px;
-     background-color: #fff;
+     margin-left: 120px;
+     margin-right: 120px;
+     margin-bottom: 100px;
  }
  
  .section-5-container{
      display: flex;
      justify-content: space-between;
  }
+ .photography h1{
+     font-weight: 700;
+     font-size: 38px;
+     line-height: 60px;
+ }
+ .photography p{
+     margin-bottom: 7%;
+ }
+ .photography span{
+    background-color: #E02C6D;
+    padding: 15px 30px;
+ }
+ .photography a{
+     text-decoration: none;
+     color: #fff;
+ }  
    /*---------------
  section-5
  ----------------*/
